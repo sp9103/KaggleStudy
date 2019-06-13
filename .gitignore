@@ -1,3 +1,4 @@
 *.zip
 *.csv
 Santander/.ipynb_checkpoints/
+*/__pycache__/*
