@@ -12,8 +12,8 @@ def apk(actual, predicted, k=7, default=0.0):
             num_hits += 1.0
             score += num_hits / (i+1.0)
             
-        if not actual:
-            return default
+    if not actual:
+        return default
         
     return score / min(len(actual), k)
 
