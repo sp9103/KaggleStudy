@@ -2,3 +2,4 @@
 *.csv
 Santander/.ipynb_checkpoints/
 */__pycache__/*
+Santander/model/
